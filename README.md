@@ -79,3 +79,24 @@ If there are common changes in both branches:
 ```yaml
 Common changed files: chaned_file_name.extension
 ```
+If no common changes exist, the output will be:
+```yaml
+Common changed files
+```
+### Error Handling
+
+If an error occurs, such as an invalid repository path or an API issue, the program will display an error message:
+```plaintext
+Error: <error_message>
+```
+
+## Tests
+
+The project includes unit tests using JUnit 5. The tests verify that the program works as expected and handles edge cases like invalid paths and missing files. To run the tests:
+
+1. Ensure you have JUnit 5 dependencies in your project.
+2. Run the tests using your IDE or through the command line:
+
+```bash
+mvn test
+```
