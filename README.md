@@ -81,7 +81,7 @@ Common changed files: chaned_file_name.extension
 ```
 If no common changes exist, the output will be:
 ```yaml
-Common changed files
+Common changed files:
 ```
 ### Error Handling
 
