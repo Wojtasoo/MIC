@@ -69,7 +69,7 @@ This project uses Jackson for JSON parsing. Ensure you have the necessary depend
 To run the program from the command line, use the following format:
 
 ```bash
-java -cp target/BranchDiffFinder.jar com.branchdiff.BranchDiffFinder <owner> <repo> <accessToken> <localRepoPath> <branchA> <branchB>
+java -cp lib/build/libs/lib.jar com.branchdiff.BranchDiffFinder <owner> <repo> <accessToken> <localRepoPath> <branchA> <branchB>
 ```
 
 #### Parameters:
