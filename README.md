@@ -22,8 +22,21 @@ A Java library to find files that have been modified independently in both a rem
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/BranchDiffFinder.git
+git clone [https://github.com/your-username/BranchDiffFinder.git](https://github.com/Wojtasoo/MIC.git)
 cd BranchDiffFinder
+```
+
+### Building the Application
+
+- To build the application and generate a JAR file using Gradle, run the following command:
+
+```bash
+./gradlew build
+```
+
+- If you're using Windows, use:
+```powershell
+gradlew.bat build
 ```
 
 ## Dependencies
