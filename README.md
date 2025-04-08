@@ -31,12 +31,12 @@ cd BranchDiffFinder
 - To build the application and generate a JAR file using Gradle, run the following command:
 
 ```bash
-./gradlew build
+./gradlew clean build
 ```
 
 - If you're using Windows, use:
 ```powershell
-gradlew.bat build
+gradlew.bat clean build
 ```
 
 ## Dependencies
@@ -80,11 +80,6 @@ java -cp target/BranchDiffFinder.jar com.branchdiff.BranchDiffFinder <owner> <re
 - `<branchA>`: The name of the remote branch.
 - `<branchB>`: The name of the local branch.
 
-Example:
-
-```bash
-java -cp target/BranchDiffFinder.jar com.branchdiff.BranchDiffFinder testowner testrepo <your_token> /path/to/repo branchA branchB
-```
 The program will output the common files modified in both branches since their merge base.
 
 ### Example Output:
