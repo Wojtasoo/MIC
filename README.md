@@ -14,7 +14,8 @@ A Java library to find files that have been modified independently in both a rem
 
 - Java 11 or later
 - Git installed locally
-- GitHub access token (for API access)
+- GitHub Personal Access Token for API access or CI/CD purposes, you can create one by following GitHub’s instructions:
+[Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ## Setup
 
@@ -95,8 +96,12 @@ Error: <error_message>
 The project includes unit tests using JUnit 5. The tests verify that the program works as expected and handles edge cases like invalid paths and missing files. To run the tests:
 
 1. Ensure you have JUnit 5 dependencies in your project.
-2. Run the tests using your IDE or through the command line:
-
-```bash
-mvn test
-```
+2. Run the tests using your IDE or through the command line:  
+   -On Linux Systems:
+    ```bash
+    ./gradlew test
+    ```
+   -On Windows:
+   ```powershell
+   gradlew.bat test
+   ```
